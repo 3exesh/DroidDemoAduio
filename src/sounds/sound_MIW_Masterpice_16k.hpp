@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : 
+  * @file           : sound_MIW_Masterpice_16k.hpp
   * @brief          : 
   * @author         : Datsii Vladisalav
   * @date           :

@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : Player.cpp
+  * @file           : Player.hpp
   * @brief          :
   * @author         : Datsii Vladisalav
   * @date           :

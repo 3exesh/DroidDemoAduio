@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : 
+  * @file           : sound_HARDKISS_ZHiva_16k.hpp
   * @brief          : 
   * @author         : Datsii Vladisalav
   * @date           :

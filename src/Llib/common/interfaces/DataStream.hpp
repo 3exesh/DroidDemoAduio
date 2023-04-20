@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : DataStream.cpp
+  * @file           : DataStream.hpp
   * @brief          :
   * @author         : Datsii Vladisalav
   * @date           :

@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : audio.cpp
+  * @file           : audio.hpp
   * @brief          : 
   * @author         : Datsii Vladisalav
   * @date           :

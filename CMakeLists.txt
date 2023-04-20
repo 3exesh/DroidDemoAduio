@@ -7,7 +7,6 @@
 # Date     : 04.10.2023 16:00
 # Author   : Datsii Vladislav
 # Email    : 3exesh@gmail.com
-# Telegram :
 #---------------------------------------------------------------------------------------------------
 #<< COMPILE PARAMS : >>
 set(CMAKE_C_CXX_PARAMS_LIST__GLOBAL -std=c++20 -O0  -fpermissive -Wno-unused-variable -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-function )

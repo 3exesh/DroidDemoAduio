@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : BluetoothService.cpp
+  * @file           : BluetoothService.hpp
   * @brief          :
   * @author         : Datsii Vladisalav
   * @date           :

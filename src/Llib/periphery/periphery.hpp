@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file           : periphery.cpp
+  * @file           : periphery.hpp
   * @brief          :
   * @author         : Datsii Vladisalav
   * @date           :
