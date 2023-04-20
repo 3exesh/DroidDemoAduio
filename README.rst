@@ -3,7 +3,7 @@
 Droid Demo Audio
 ###################
 
-Overview
+Overview :wink:
 ********
 A simple sample C++ I2S/Bluetooth demo project that can be used with nRF52840-DK 
 board and play some raw audio via I2S on Bluetooth command.
