@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Nordic",
+            "includePath": [
+                "${default}",
+                //NOT USED :
+                //"C:/Nordic/NCS/toolchains/v2.3.0/opt/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.1.0/include",
+                //"C:/Nordic/NCS/toolchains/v2.3.0/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/include",
+                //"C:/Nordic/NCS/v2.3.0/modules/lib/picolibc/newlib/libc/include",
+                //"C:/Nordic/NCS/toolchains/v2.3.0/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/include",
+                //"C:/Nordic/NCS/toolchains/v2.3.0/opt/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.1.0/install-tools/include",
+                //"C:/Nordic/NCS/v2.3.0/modules/lib/picolibc/newlib/libc/include",
+                //USED :
+                //"C:/Nordic/NCS/v2.3.0/zephyr/include/zephyr", //tooolchain.h //(kernel.h)
+                //"C:/Nordic/NCS/toolchains/v2.3.0/opt/zephyr-sdk/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/12.1.0/include", //stddef.h
+                //"C:/Nordic/NCS/v2.3.0/zephyr/lib/libc/minimal/include", //stdlib.h //string.h //limits.h
+                //"C:/Nordic/NCS/toolchains/v2.3.0/opt/zephyr-sdk/arm-zephyr-eabi/arm-zephyr-eabi/sys-include", //stdio.h
+                "/src",
+                "/build"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "configurationProvider": "nrf-connect"
+        }
+    ],
+    "version": 4
+}
