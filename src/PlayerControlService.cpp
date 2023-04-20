@@ -1,12 +1,6 @@
 #include "PlayerControlService.hpp"
 
-#include "sounds/sound_HARDKISS_ZHiva_16k.hpp"
-#include "sounds/sound_MIW_Masterpice_16k.hpp"
-#include "sounds/sound_MIW_Masterpice_cut_16k.hpp"
-#include "sounds/sound_OE_Obiymy_cut_16k.hpp"
-#include "sounds/sound_OE_Obiymy_loud_16k.hpp"
-#include "sounds/sound_OE_Obiymy_16k.hpp"
-#include "sounds/sound_OE_Obiymy_8k.hpp"
+#include "sounds/sound_list.hpp"
 
 
 #include <zephyr/bluetooth/bluetooth.h>

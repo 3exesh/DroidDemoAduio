@@ -8,7 +8,8 @@
   * @attention
   *
   *  Droid Demo Adudio - nRF52840DK 
-  *
+  * 
+  * @details "https://youtu.be/--Wokwe4-i0"
   ******************************************************************************
   */
 
