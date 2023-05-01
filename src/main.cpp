@@ -28,14 +28,14 @@ L_THREAD_DEFINE(aduioPlayer_th, 1024, 1, 0, 0);
 
 //<< I2S : >>
 K_MEM_SLAB_DEFINE_STATIC(i2s_tx_mem_slab, 1024*2*1, 16, 2); // buff*wordWidth*chan
-//<< I2S : >>
+//<< I2S / >>
 
 //<< BLUETOOTH : >>
 #define BT_SERVICES_MAXNUM 1
 #define BT_ADVERTISINGS_MAXNUM BT_SERVICES_MAXNUM + 1
 BluetoothService *btServicesMemory_p[BT_SERVICES_MAXNUM];
 bt_data btAdvertisingsMemory_p[BT_ADVERTISINGS_MAXNUM];
-//<< BLUETOOTH : >>
+//<< BLUETOOTH / >>
 
 int main()
 {
@@ -51,11 +51,11 @@ int main()
     player.set(aduioPlayer_th);
     player.connect(i2s);
 
-    //<< BLUETOTH : >>
+    //<< BLUETOOTH : >>
     Bluetooth::set(btServicesMemory_p, BT_SERVICES_MAXNUM);
     Bluetooth::set(btAdvertisingsMemory_p, BT_ADVERTISINGS_MAXNUM);
 
-    //<< BLUETOTH : SERVICES : >>
+    //<< BLUETOOTH : SERVICES : >>
     PlayerControlService PlayerControl_btServ;
     Bluetooth::connect(PlayerControl_btServ);
     PlayerControl_btServ.connect(player);
