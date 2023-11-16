@@ -2,7 +2,7 @@
 #      Copyright (c) 2018 Nordic Semiconductor
 # SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
 #---------------------------------------------------------------------------------------------------
-# Project  : Droid Demo Audio.
+# Project  : Droid Demo Audio..
 #---------------------------------------------------------------------------------------------------
 # Date     : 04.10.2023 16:00
 # Author   : Datsii Vladislav
